@@ -1,0 +1,144 @@
+#root {
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+.widgets {
+    position: absolute;
+    top: 50%;
+    display: table;
+}
+.formRoot{
+  font-family:"Avenir Next";
+  font-size: 12px;
+  padding: 5px 25px 25px 25px;
+}
+#form {
+  margin-top: 1px;
+  font-family:"Avenir Next";
+  font-size: 12px;
+}
+.h1 {
+  font-family:"Helvetica Now Text W05 Bold";
+  border-bottom: 1px solid #999;
+  padding: 15px 25px;
+  font-size: 22px;
+}
+.p1 {
+  font-family:"Avenir Next";
+  font-size: 14px;
+}
+#apiKeyInput {
+  width: 440px;
+  height: 30px;
+  padding: 12px 5px;
+  margin: 12px 20px 12px 0px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 4px;
+  font-family:"Avenir Next";
+}
+#dataTagInput {
+  width: 150px;
+  height: 30px;
+  padding: 12px 5px;
+  margin: 2px 20px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 3px;
+  font-family:"Avenir Next";
+}
+#dataTagCatInput {
+  width: 150px;
+  height: 30px;
+  padding: 12px 5px;
+  margin: 2px 20px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 3px;
+  font-family:"Avenir Next";
+}
+#languageForm {
+  margin-top: 15px;
+}
+#dataLangInput {
+  width: 50px;
+  height: 30px;
+  padding: 12px 5px;
+  margin: 0px 20px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 3px;
+  font-family:"Avenir Next";
+}
+#checkboxLabel {
+  margin-right: 10px;
+}
+.submit {
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  width: 60px;
+  height: 31px;
+  font-family:"Avenir Next";
+  background-color: #158ad3;
+  color: #fff;
+  font-weight: 500;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  line-height: 29px;
+  letter-spacing: .3px;
+  text-indent: 1.5px;
+  text-transform: uppercase
+}
+.submitInstance {
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  width: 100px;
+  font-size: 9px;
+  height: 31px;
+  font-family:"Avenir Next";
+  background-color: #158ad3;
+  color: #fff;
+  font-weight: 500;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  line-height: 29px;
+  letter-spacing: .3px;
+  text-indent: 1.5px;
+  text-transform: uppercase
+}
+#select {
+  margin: 5px 0px 15px 0px;
+  font-family:"Avenir Next";
+  width: 524px;
+  height: 30px;
+  top: 20%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}

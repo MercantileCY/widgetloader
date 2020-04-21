@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget Loader</title>
+  <link href="https://fast.fonts.net/cssapi/70f0e3a0-3d37-4d9d-879f-6c8e34790bf8.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="root">
+  	<h1 class="h1">Olapic Widget Loader</h1>
+  	<div class="formRoot">
+  	<p class="p1">This extension calls the Olapic API and returns a list of Widget Instances for your chosen customer.</p>
+  	<p class="p1">You can then view the widget in a new tab, with no need for a local server - and without relying on our preview sandbox within the platform.</p>
+  		<form id="form">
+  			Please enter the customer API Key below:<br>
+  			<input id="apiKeyInput" type="text" name="apikey" placeholder="Paste API key here">
+  			<input id="submitApi" type="button" value="Submit" class="submit">
+  		</form>
+  	<div id="languageForm">
+  	</div>
+  	</div>
+
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
